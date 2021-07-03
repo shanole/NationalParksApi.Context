@@ -56,7 +56,7 @@ Installation
 
 To see Swagger documentation, click [here](http://localhost:5000/swagger)
 
-GET requests
+**GET requests**
 * `http://localhost:5000/api/nationalparks/parks`
   * GETs all National Parks in the database
 
@@ -72,15 +72,15 @@ GET requests
 *`http://localhost:5000/api/nationalparks/parks/{ID}`
   * GETs the National Park with the Id as specified in the request
 
-POST
+**POST**
 * `http://localhost:5000/api/nationalparks/parks`
   * POSTs a new National Park to the API
 
-DELETE
+**DELETE**
 * `http://localhost:5000/api/nationalparks/parks/{ID}`
   * DELETEs the National Park with the Id as specified in the request
 
-PUT
+**PUT**
 * `http://localhost:5000/api/nationalparks/parks/{ID}`
   * PUTs new data into the National Park entry with the Id as specified in the request
 
