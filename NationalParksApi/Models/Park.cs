@@ -10,7 +10,7 @@ namespace NationalParksApi.Models
     [Required]
     public string Location {get; set;}
     [Required]
-    [Range(0, 50000, ErrorMessage = "Area must be between 0 and 50,000 kilometers squared.")]
+    [Range(1, 50000, ErrorMessage = "Area must be between 1 and 50,000 kilometers squared.")]
     public float AreaKmSquared {get; set;}
     [Required]
     [StringLength(600)]
