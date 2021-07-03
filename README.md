@@ -58,7 +58,7 @@ To see Swagger documentation, click [here](http://localhost:5000/swagger)
 
 **GET requests**
 * `http://localhost:5000/api/nationalparks/parks`
-  * GETs all National Parks in the database
+  * GETs all National Parks in the database. The database is seeded with information from 2 National Parks, Mount Rainer and Zion.
 
 *`http://localhost:5000/api/nationalparks/parks?name=<YOUR QUERY HERE>`
   * GETs any National Parks with a name that matches your query
